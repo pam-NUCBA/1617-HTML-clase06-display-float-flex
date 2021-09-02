@@ -1,0 +1,18 @@
+div {
+    background-color: skyblue;
+    padding: 3%;
+    width: 30%;
+}
+
+/* fíjense si le sacamos el float de la izq o le ponemos un margin al div... se hace un despelote */
+.soyIzquierda {
+    float:left;
+}
+
+.soyDerecha {
+    float: right;
+}
+
+p {
+    background-color: steelblue;
+}

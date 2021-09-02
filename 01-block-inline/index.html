@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>block e inline</title>
+</head>
+
+<body>
+    <h1>Aprendiendo display!</h1>
+
+    <!-- .soyNormal + tab crearía un div con class="soyNormal". Se puede poner el nombre de cualquier etiqueta al ppio, y con *3 sería esa etiqueta más las class que pongamos -->
+
+    <!-- los dos son display:block -->
+    <div class="soyBlock">
+        <p class="soyBlock">Lorem ipsum dolor <span>sit amet consectetur</span> adipisicing elit. Pariatur, omnis. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Possimus inventore saepe delectus soluta facere ab qui!
+            Doloribus quae repellendus error culpa fuga itaque harum! Adipisci eos, explicabo facilis quasi tempore
+            voluptatem quos repellat accusantium excepturi eum quia quis architecto minus. Illum a laboriosam provident
+            pariatur repudiandae consectetur quis ut repellat?</p>
+    </div>
+
+    <!-- block ocupa el ancho completo, inline el ancho del contenido -->
+
+    <!-- el p inline -->
+    <div>
+        <p class="soyInline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quidem enim at
+            saepe, dolores
+            accusamus numquam repudiandae recusandae libero harum ratione est asperiores rerum quibusdam exercitationem
+            alias blanditiis delectus?</p>
+    </div>
+
+    <!-- el div inline -->
+    <div class="soyInline">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quidem enim at saepe, dolores
+            accusamus numquam repudiandae recusandae libero harum ratione est asperiores rerum quibusdam exercitationem
+            alias blanditiis delectus?</p>
+    </div>
+
+    <!-- los dos inline -->
+    <div class="soyInline">
+        <p class="soyInline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quidem enim at
+            saepe, dolores
+            accusamus numquam repudiandae recusandae libero harum ratione est asperiores rerum quibusdam exercitationem
+            alias blanditiis delectus?</p>
+    </div>
+
+    <!-- los dos inline-block -->
+    <div class="soyInline">
+        <p class="soyInlineBlock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quidem enim
+            at
+            saepe, dolores
+            accusamus numquam repudiandae recusandae libero harum ratione est asperiores rerum quibusdam exercitationem
+            alias blanditiis delectus?</p>
+    </div>
+
+    <!-- padre block hijos uno de cada uno. -->
+    <div class="soyBlock">
+        <p class="soyBlock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quidem enim at
+            saepe, dolores
+            accusamus numquam repudiandae recusandae libero harum ratione est asperiores rerum quibusdam exercitationem
+            alias blanditiis delectus?</p>
+        <p class="soyInline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quidem enim at
+            saepe, dolores
+            accusamus numquam repudiandae recusandae libero harum ratione est asperiores rerum quibusdam exercitationem
+            alias blanditiis delectus?</p>
+        <p class="soyInlineBlock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quidem enim
+            at
+            saepe, dolores
+            accusamus numquam repudiandae recusandae libero harum ratione est asperiores rerum quibusdam exercitationem
+            alias blanditiis delectus?</p>
+    </div>
+
+
+    <h2>resumiento: </h2>
+    <ul>
+        <li> padre block, hijo block o inline: se ve bien.</li>
+        <li>padre inline, hijo block o inline: se ve rarito</li>
+        <li>inline block es un intermedio entre ambos, porque permite usar el ancho y el alto
+        </li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+div {
+    background-color: rgb(197, 187, 173);
+    padding: 2%;
+    margin: 3%;
+}
+
+p {
+    background-color: teal;
+}
+
+p span {
+    background-color: slategray;
+}
+
+.soyInline {
+    display: inline;
+}
+
+.soyInlineBlock {
+    display: inline-block;
+}

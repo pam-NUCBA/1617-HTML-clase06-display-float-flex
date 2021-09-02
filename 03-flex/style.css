@@ -1,0 +1,36 @@
+div {
+    padding: 2%;
+    margin: 1%;
+}
+
+p {
+    background-color: violet;
+    padding: 1%;
+    margin: 1%;
+}
+
+/* flex direction es el eje principal. Si no especifico nada más, va a poner a todos los hijos en el eje */
+.flex1 {
+    background-color: wheat;
+    display: flex;
+}
+
+/* flex direction es el eje principal. Con column, va a alinear en un eje vertical */
+.flex2 {
+    background-color: rgb(255, 201, 101);
+    display: flex;
+    flex-direction: column;
+}
+
+/* direction row y wrap: wrap es si bajar o no los elementos */
+
+p.miniFlex1 {
+    width: 40%;
+}
+
+.flex3 {
+    background-color: rgb(255, 156, 74);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
